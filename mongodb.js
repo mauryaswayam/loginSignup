@@ -6,8 +6,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://mauryaswayam3:WlXJnktjuQv4rUaT@cluster0.o3qjbwe.mongodb.net/LoginSignup', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,  // For MongoDB < 5.x
-  useFindAndModify: false // For MongoDB < 5.x
+  
 })
 
 
